@@ -143,7 +143,7 @@ function navigateToVideoPlayer(
   localStorage.setItem("likeCount", likeCount);
   localStorage.setItem("viewCount", viewsCount);
 
-  window.location.href = "http://127.0.0.1:5501/videoPlayer.html";
+  window.location.href = "https://dipak1121.github.io/Youtube-Clone-App/videoPlayer.html";
 }
 
 function displayVideos(dataArr) {
