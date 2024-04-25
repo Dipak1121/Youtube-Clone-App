@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+}
+.container{
+    display: flex;
+}
+.side-bar{
+    background-color: #212121;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.icon{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.icon img{
+    height: 40px;
+    width: 40px;
+}
+.icon p{
+    font: 400;
+    font-size: 20px;
+}
+.icon:hover{
+background-color: #383838;
+}
+.main-page{
+    background-color: #181818;
+    /* flex-grow: 1; */
+    width: 85vw;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search-form{
+    display: flex;
+    gap: 0px;
+    flex-direction: row;
+    align-items: center;
+}
+.search-form button{
+    border: none;
+    background-color: transparent;
+    height: 47px;
+}
+.search-form button img{
+    height: 47px;
+}
+.search-input{
+    border: 2px solid #323232;
+    background-color: #181818;
+    width: 25vw;
+    height: 45px;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px 0px 0px 10px;
+}
+.options{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.options img{
+    height: 30px;
+}
+.video-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    
+    /* padding: 20px; */
+    
+}
+.video{
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.video-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.video-info{
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+}
+.channel-logo{
+    background-color: transparent;
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.video-stat{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.video-title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.channel-name, .views-stat, .time-stat{
+    color: #AAAAAA;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 300;
+}
+.stats{
+    display: flex;
+    gap: 15px;
+}
+
